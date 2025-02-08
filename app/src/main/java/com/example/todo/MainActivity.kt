@@ -39,7 +39,12 @@ class MainActivity : AppCompatActivity() {
         // Привязываем адаптер
         recyclerView.adapter = TaskAdapter(tasks)
 
-        
+
+        // Добавление элементов в tasks
+        btnMainAddTask.setOnClickListener {
+            tasks.add(Task(false, "New", "New"))
+            recyclerView.layoutManager = LinearLayoutManager(this)
+        }
 
 
     }
