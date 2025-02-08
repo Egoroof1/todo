@@ -46,6 +46,8 @@ class MainActivity : AppCompatActivity() {
             recyclerView.layoutManager = LinearLayoutManager(this)
         }
 
+        //новый комент
+
 
     }
 }

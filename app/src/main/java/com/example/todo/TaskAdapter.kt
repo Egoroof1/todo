@@ -45,6 +45,8 @@ class TaskAdapter(private val tasks: List<Task>) : RecyclerView.Adapter<TaskAdap
 
     }
 
+    //новый комент
+
     override fun getItemCount(): Int = tasks.size
 
 }
